@@ -1,0 +1,338 @@
+[
+  {
+    "id": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹（无烟火药）"
+    },
+    "description": "标准手枪口径弹药，后坐力小，适合快速射击。",
+    "weight": "14 g",
+    "volume": "150 ml",
+    "price": 1500,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "hunt_ammo_short",
+    "count": 20,
+    "range": 8,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 20,
+      "armor_penetration": 1
+    },
+    "dispersion": 150,
+    "recoil": 800,
+    "effects": [
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹（黑火药复装）"
+    },
+    "description": "用黑火药复装的短弹药，威力较低且烟雾大。",
+    "weight": "16 g",
+    "volume": "150 ml",
+    "price": 800,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "ammo_type": "hunt_ammo_short",
+    "count": 20,
+    "range": 6,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 15,
+      "armor_penetration": 0
+    },
+    "dispersion": 200,
+    "recoil": 650,
+    "effects": [
+      "RECYCLED",
+      "BLACKPOWDER_FIRE",
+      "MUZZLE_SMOKE"
+    ]
+  },
+  {
+    "id": "hunt_short_fmj",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 FMJ（无烟火药）"
+    },
+    "description": "全金属被甲短弹，穿透力增强。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -3,
+        "armor_penetration": 6
+      },
+      "dispersion": 10
+    }
+  },
+  {
+    "id": "hunt_short_fmj_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 FMJ（黑火药复装）"
+    },
+    "description": "黑火药复装的全金属被甲短弹。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -3,
+        "armor_penetration": 4
+      },
+      "dispersion": 20
+    }
+  },
+  {
+    "id": "hunt_short_dumdum",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 达姆弹（无烟火药）"
+    },
+    "description": "开花弹，造成流血效果。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 3
+      },
+      "armor_penetration": -3
+    },
+    "extend": {
+      "effects": [
+        "BLEED"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_dumdum_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 达姆弹（黑火药复装）"
+    },
+    "description": "黑火药达姆弹，流血效果稍弱。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 1
+      },
+      "armor_penetration": -3
+    },
+    "extend": {
+      "effects": [
+        "BLEED"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_hv",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 高速弹（无烟火药）"
+    },
+    "description": "高初速，后坐力增大。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 3
+      },
+      "recoil": 150,
+      "range": 2,
+      "dispersion": -10
+    }
+  },
+  {
+    "id": "hunt_short_hv_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 高速弹（黑火药复装）"
+    },
+    "description": "黑火药高速弹，性能提升有限。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 1
+      },
+      "recoil": 80,
+      "range": 1,
+      "dispersion": -5
+    }
+  },
+  {
+    "id": "hunt_short_incendiary",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 燃烧弹（无烟火药）"
+    },
+    "description": "燃烧弹头，点燃目标。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -3
+      },
+      "armor_penetration": -3
+    },
+    "extend": {
+      "effects": [
+        "INCENDIARY"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_incendiary_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 燃烧弹（黑火药复装）"
+    },
+    "description": "黑火药燃烧弹。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5
+      },
+      "armor_penetration": -3
+    },
+    "extend": {
+      "effects": [
+        "INCENDIARY"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_explosive",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 爆炸弹（无烟火药）"
+    },
+    "description": "爆炸弹头，命中后爆炸。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -10
+      },
+      "armor_penetration": -6
+    },
+    "extend": {
+      "effects": [
+        "EXPLOSIVE"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_explosive_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 爆炸弹（黑火药复装）"
+    },
+    "description": "黑火药爆炸弹。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -12
+      },
+      "armor_penetration": -6
+    },
+    "extend": {
+      "effects": [
+        "EXPLOSIVE"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_poison",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 毒弹（无烟火药）"
+    },
+    "description": "涂毒弹头，造成毒素伤害。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -3
+      }
+    },
+    "extend": {
+      "effects": [
+        "POISON"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_poison_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 毒弹（黑火药复装）"
+    },
+    "description": "黑火药毒弹。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5
+      }
+    },
+    "extend": {
+      "effects": [
+        "POISON"
+      ]
+    }
+  },
+  {
+    "id": "hunt_short_spitzer",
+    "copy-from": "hunt_short_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 斯皮策弹（无烟火药）"
+    },
+    "description": "流线型弹头，高穿透，伤害较低。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5
+      },
+      "armor_penetration": 8,
+      "range": 2,
+      "dispersion": -15
+    }
+  },
+  {
+    "id": "hunt_short_spitzer_bp",
+    "copy-from": "hunt_short_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "短子弹 斯皮策弹（黑火药复装）"
+    },
+    "description": "黑火药斯皮策弹。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -8
+      },
+      "armor_penetration": 5,
+      "range": 1,
+      "dispersion": -10
+    }
+  }
+]

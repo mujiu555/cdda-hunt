@@ -1,0 +1,104 @@
+[
+  {
+    "result": "hunt_revolver_belt_feed",
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "time": "90 m",
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [
+      [
+        "manual_gun",
+        3
+      ],
+      [
+        "mag_mechanics",
+        5
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "wrench",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          6
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          4
+        ]
+      ],
+      [
+        [
+          "motor",
+          1
+        ]
+      ],
+      [
+        [
+          "cable",
+          3
+        ]
+      ],
+      [
+        [
+          "bearing",
+          2
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          8
+        ]
+      ],
+      [
+        [
+          "scrap",
+          4
+        ]
+      ]
+    ]
+  }
+]

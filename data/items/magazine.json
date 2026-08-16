@@ -1,0 +1,31 @@
+[
+  {
+    "id": "hunt_long_clip",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "长子弹桥夹"
+    },
+    "description": "一个用于快速装填长子弹的金属桥夹。",
+    "weight": "20 g",
+    "volume": "50 ml",
+    "price": 500,
+    "material": [
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "hunt_ammo_long",
+    "flags": [
+      "SPEEDLOADER"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_long": 5
+        },
+        "rigid": true
+      }
+    ]
+  }
+]

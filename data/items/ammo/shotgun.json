@@ -1,0 +1,192 @@
+[
+  {
+    "id": "hunt_shotgun_buckshot",
+    "type": "AMMO",
+    "name": {
+      "str": "鹿弹"
+    },
+    "description": "标准霰弹，内含多颗弹丸，近距离威力巨大。",
+    "weight": "40 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 10,
+    "range": 10,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 1
+    },
+    "dispersion": 300,
+    "recoil": 1500,
+    "effects": [
+      "SHOT",
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_shotgun_slug",
+    "type": "AMMO",
+    "name": {
+      "str": "独头弹"
+    },
+    "description": "单颗大质量弹头，穿透力强，有效射程更远。",
+    "weight": "45 g",
+    "volume": "250 ml",
+    "price": 1500,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 8,
+    "range": 15,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 45,
+      "armor_penetration": 10
+    },
+    "dispersion": 150,
+    "recoil": 2000,
+    "effects": [
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_shotgun_flechette",
+    "type": "AMMO",
+    "name": {
+      "str": "箭形弹"
+    },
+    "description": "内含多个小型箭形弹丸，散布较紧，可造成流血伤害。",
+    "weight": "38 g",
+    "volume": "250 ml",
+    "price": 1300,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 10,
+    "range": 10,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 25,
+      "armor_penetration": 2
+    },
+    "dispersion": 250,
+    "recoil": 1400,
+    "effects": [
+      "SHOT",
+      "RECYCLED",
+      "BLEED"
+    ]
+  },
+  {
+    "id": "hunt_shotgun_pennyshot",
+    "type": "AMMO",
+    "name": {
+      "str": "硬币弹"
+    },
+    "description": "装填硬币的霰弹，对怪物和 Boss 效果显著，但对猎人的伤害不稳定。",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "price": 1200,
+    "material": [
+      "steel",
+      "copper",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 10,
+    "range": 8,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 35,
+      "armor_penetration": 1
+    },
+    "dispersion": 400,
+    "recoil": 1600,
+    "effects": [
+      "SHOT",
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_shotgun_dragonbreath",
+    "type": "AMMO",
+    "name": {
+      "str": "龙息弹"
+    },
+    "description": "喷出数米长的火焰，点燃路径上的一切。射程比鹿弹短。",
+    "weight": "35 g",
+    "volume": "250 ml",
+    "price": 1400,
+    "material": [
+      "steel",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 8,
+    "range": 5,
+    "damage": {
+      "damage_type": "fire",
+      "amount": 15,
+      "armor_penetration": 0
+    },
+    "dispersion": 400,
+    "recoil": 1200,
+    "effects": [
+      "INCENDIARY",
+      "SHOT"
+    ]
+  },
+  {
+    "id": "hunt_shotgun_starshell",
+    "type": "AMMO",
+    "name": {
+      "str": "照明弹"
+    },
+    "description": "发射照明弹，照亮区域并点燃目标。",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "price": 800,
+    "material": [
+      "steel",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "white",
+    "ammo_type": "hunt_ammo_shotgun",
+    "count": 6,
+    "range": 20,
+    "damage": {
+      "damage_type": "fire",
+      "amount": 1
+    },
+    "dispersion": 200,
+    "recoil": 800,
+    "effects": [
+      "LIGHT_20",
+      "NO_OVERMAP",
+      "INCENDIARY"
+    ]
+  }
+]

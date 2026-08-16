@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "hunt_vetterli",
+    "type": "GUN",
+    "name": {
+      "str": "Vetterli 71 Karabiner"
+    },
+    "description": "瑞士设计的栓动卡宾枪，使用中口径弹药，射速较快。",
+    "weight": "3600 g",
+    "volume": "2800 ml",
+    "price": 70000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 28,
+      "armor_penetration": 6
+    },
+    "dispersion": 220,
+    "reload": 200,
+    "range": 20,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_vetterli_cyclone",
+    "type": "GUN",
+    "name": {
+      "str": "Vetterli 71 旋风型"
+    },
+    "description": "维特利71卡宾枪的半自动改型，人称“旋风AK”。极高的射速搭配124伤害，中近距离击杀效率极高。弹容仅4发，容错较低。",
+    "weight": "3600 g",
+    "volume": "2800 ml",
+    "price": 44200,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 28,
+      "armor_penetration": 5
+    },
+    "dispersion": 240,
+    "reload": 200,
+    "range": 18,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_springfield",
+    "type": "GUN",
+    "name": {
+      "str": "Springfield 1866"
+    },
+    "description": "经典的单发落膛步枪，威力可靠。",
+    "weight": "3700 g",
+    "volume": "2900 ml",
+    "price": 65000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 7
+    },
+    "dispersion": 210,
+    "reload": 280,
+    "range": 22,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_1865_carbine",
+    "type": "GUN",
+    "name": {
+      "str": "1865 Carbine"
+    },
+    "description": "杠杆卡宾枪，快速连续射击。",
+    "weight": "3500 g",
+    "volume": "2600 ml",
+    "price": 72000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 26,
+      "armor_penetration": 5
+    },
+    "dispersion": 240,
+    "reload": 150,
+    "range": 18,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_centennial",
+    "type": "GUN",
+    "name": {
+      "str": "Winfield M1876 Centennial"
+    },
+    "description": "大口径杠杆步枪，威力在中等弹药中较为出色。",
+    "weight": "3800 g",
+    "volume": "2900 ml",
+    "price": 75000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 6
+    },
+    "dispersion": 230,
+    "reload": 160,
+    "range": 21,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_infantry_73l",
+    "type": "GUN",
+    "name": {
+      "str": "Infantry 73L"
+    },
+    "description": "Winfield 73的步兵版本，长枪管，精准度较高。",
+    "weight": "3700 g",
+    "volume": "2800 ml",
+    "price": 68000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 27,
+      "armor_penetration": 5
+    },
+    "dispersion": 220,
+    "reload": 150,
+    "range": 20,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_ranger_73",
+    "type": "GUN",
+    "name": {
+      "str": "Ranger 73"
+    },
+    "description": "Winfield 73的紧凑型，适合骑兵。",
+    "weight": "3400 g",
+    "volume": "2500 ml",
+    "price": 66000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 25,
+      "armor_penetration": 4
+    },
+    "dispersion": 250,
+    "reload": 150,
+    "range": 17,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_vandal_73c",
+    "type": "GUN",
+    "name": {
+      "str": "Vandal 73C"
+    },
+    "description": "短管Winfield，便携但射程较短。",
+    "weight": "3200 g",
+    "volume": "2300 ml",
+    "price": 62000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 24,
+      "armor_penetration": 4
+    },
+    "dispersion": 270,
+    "reload": 140,
+    "range": 15,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_frontier_73c",
+    "type": "GUN",
+    "name": {
+      "str": "Frontier 73C"
+    },
+    "description": "Winfield 73的猎用版本，轻量化。",
+    "weight": "3300 g",
+    "volume": "2400 ml",
+    "price": 64000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_medium",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 26,
+      "armor_penetration": 5
+    },
+    "dispersion": 240,
+    "reload": 150,
+    "range": 19,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_scottfield",
+    "type": "GUN",
+    "name": {
+      "str": "Scottfield"
+    },
+    "description": "中口径左轮手枪，弹容6发，手感扎实。",
+    "weight": "1100 g",
+    "volume": "600 ml",
+    "price": 55000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_medium",
+    "skill": "pistol",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 24,
+      "armor_penetration": 4
+    },
+    "dispersion": 320,
+    "reload": 220,
+    "range": 14,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_pax",
+    "type": "GUN",
+    "name": {
+      "str": "Caldwell Pax"
+    },
+    "description": "经典单动左轮，威力略高于Scottfield。",
+    "weight": "1150 g",
+    "volume": "650 ml",
+    "price": 58000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_medium",
+    "skill": "pistol",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 26,
+      "armor_penetration": 5
+    },
+    "dispersion": 300,
+    "reload": 240,
+    "range": 15,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_medium": 6
+        }
+      }
+    ]
+  }
+]

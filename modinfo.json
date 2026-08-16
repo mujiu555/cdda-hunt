@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "hunt_showdown",
+    "name": "a plugin that adds some special old guns",
+    "authors": [
+      "Github@Mujiu555"
+    ],
+    "description": "Inspired by Hunt: Showdown, adding some old guns and easy to craft guns",
+    "category": "items",
+    "dependencies": [
+      "dda"
+    ],
+    "path": "data"
+  }
+]

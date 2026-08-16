@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "hunt_sparks_lrr",
+    "type": "GUN",
+    "name": {
+      "str": "Sparks LRR"
+    },
+    "description": "A single-shot, large-caliber rifle. Devastating damage but slow reload.",
+    "weight": "4100 g",
+    "volume": "3200 ml",
+    "price": 80000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 35,
+      "armor_penetration": 15
+    },
+    "dispersion": 180,
+    "reload": 400,
+    "range": 25,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_martini_henry",
+    "type": "GUN",
+    "name": {
+      "str": "Martini-Henry IC1"
+    },
+    "description": "A classic falling-block rifle, slower than Sparks but still powerful.",
+    "weight": "3800 g",
+    "volume": "3000 ml",
+    "price": 75000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 33,
+      "armor_penetration": 12
+    },
+    "dispersion": 200,
+    "reload": 300,
+    "range": 24,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_mako_1895",
+    "type": "GUN",
+    "name": {
+      "str": "Mako 1895 Carbine"
+    },
+    "description": "A lever-action rifle chambered in long ammo, offering faster follow-up shots.",
+    "weight": "3700 g",
+    "volume": "2800 ml",
+    "price": 85000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 10
+    },
+    "dispersion": 220,
+    "reload": 150,
+    "range": 22,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_lebel_1886",
+    "type": "GUN",
+    "name": {
+      "str": "Lebel 1886"
+    },
+    "description": "A French bolt-action rifle with a tube magazine, high capacity but very slow reload.",
+    "weight": "4200 g",
+    "volume": "3300 ml",
+    "price": 90000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 10,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 32,
+      "armor_penetration": 13
+    },
+    "dispersion": 190,
+    "reload": 1800,
+    "range": 26,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_mosin_nagant",
+    "type": "GUN",
+    "name": {
+      "str": "Mosin-Nagant M1891"
+    },
+    "description": "A classic Russian bolt-action rifle, reliable and powerful.",
+    "weight": "4000 g",
+    "volume": "3100 ml",
+    "price": 82000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 34,
+      "armor_penetration": 14
+    },
+    "dispersion": 170,
+    "reload": 300,
+    "range": 25,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_long": 5
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_mosin_avtomat",
+    "type": "GUN",
+    "name": {
+      "str": "莫辛-纳甘 M1891 自动型"
+    },
+    "description": "莫辛-纳甘步枪的全自动改型，扣一下扳机打出三发点射，按住扳机则全自动倾泻火力。15发弹容无备弹，近距离毁灭性极强，但远距离精度较差。可使用5发桥夹快速装填。",
+    "weight": "4400 g",
+    "volume": "3400 ml",
+    "price": 150000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 15,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 12
+    },
+    "dispersion": 320,
+    "reload": 400,
+    "range": 18,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "burst",
+        3
+      ],
+      [
+        "AUTO",
+        "auto",
+        3
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_long": 15
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_berthier",
+    "type": "GUN",
+    "name": {
+      "str": "Berthier Mle 1892"
+    },
+    "description": "A French three-shot bolt-action rifle, faster reload than Lebel.",
+    "weight": "3900 g",
+    "volume": "3000 ml",
+    "price": 78000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 3,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 31,
+      "armor_penetration": 11
+    },
+    "dispersion": 190,
+    "reload": 270,
+    "range": 24,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_krag",
+    "type": "GUN",
+    "name": {
+      "str": "Krag"
+    },
+    "description": "A Norwegian bolt-action rifle with a side-loading magazine, smooth action.",
+    "weight": "3900 g",
+    "volume": "3000 ml",
+    "price": 80000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 33,
+      "armor_penetration": 12
+    },
+    "dispersion": 180,
+    "reload": 320,
+    "range": 25,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bayonet lug",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_maynard_sniper",
+    "type": "GUN",
+    "name": {
+      "str": "Maynard Sniper"
+    },
+    "description": "A single-shot sniper rifle with excellent accuracy and range.",
+    "weight": "4200 g",
+    "volume": "3400 ml",
+    "price": 95000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 36,
+      "armor_penetration": 16
+    },
+    "dispersion": 120,
+    "reload": 450,
+    "range": 30,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_uppercut",
+    "type": "GUN",
+    "name": {
+      "str": "Caldwell Conversion Uppercut"
+    },
+    "description": "A long-barreled single-action revolver firing long ammo, delivering rifle-like punch.",
+    "weight": "1300 g",
+    "volume": "750 ml",
+    "price": 70000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_long",
+    "skill": "pistol",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 28,
+      "armor_penetration": 8
+    },
+    "dispersion": 300,
+    "reload": 250,
+    "range": 18,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_haymaker",
+    "type": "GUN",
+    "name": {
+      "str": "Haymaker"
+    },
+    "description": "A powerful single-action revolver, similar to Uppercut but with a heavier frame.",
+    "weight": "1400 g",
+    "volume": "800 ml",
+    "price": 72000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_long",
+    "skill": "pistol",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 29,
+      "armor_penetration": 8
+    },
+    "dispersion": 280,
+    "reload": 260,
+    "range": 17,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_long": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_1890_cavalry",
+    "type": "GUN",
+    "name": {
+      "str": "1890 Cavalry"
+    },
+    "description": "A compact lever-action pistol firing long ammo, designed for mounted troops.",
+    "weight": "1200 g",
+    "volume": "700 ml",
+    "price": 68000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "pistol",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 26,
+      "armor_penetration": 6
+    },
+    "dispersion": 320,
+    "reload": 180,
+    "range": 15,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_long": 5
+        },
+        "rigid": true
+      }
+    ]
+  }
+]

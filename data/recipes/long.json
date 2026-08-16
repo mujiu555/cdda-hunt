@@ -1,0 +1,672 @@
+[
+  {
+    "result": "hunt_long_ball_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_fmj_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_dumdum_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_hv_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "55 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          15
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_incendiary_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "55 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "white_phosphorous",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_explosive_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "60 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_poison_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "conc_venom",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_spitzer_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "55 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_ball",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_fmj",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_dumdum",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_hv",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          15
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_incendiary",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "white_phosphorous",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_explosive",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_poison",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "conc_venom",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_long_spitzer",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_mosin_avtomat",
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 8,
+    "time": "150 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          10
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ],
+      [
+        [
+          "2x4",
+          4
+        ]
+      ],
+      [
+        [
+          "spring",
+          4
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          18
+        ]
+      ],
+      [
+        [
+          "steel_lump",
+          2
+        ]
+      ]
+    ]
+  }
+]

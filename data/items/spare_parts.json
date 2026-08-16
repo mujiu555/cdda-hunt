@@ -1,0 +1,78 @@
+[
+  {
+    "id": "hunt_long_casing",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "spare_parts",
+    "name": {
+      "str": "长子弹空弹壳"
+    },
+    "description": "使用过的长子弹弹壳，可以复装。",
+    "weight": "10 g",
+    "volume": "10 ml",
+    "price": 100,
+    "material": [
+      "brass"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 1
+  },
+  {
+    "id": "hunt_medium_casing",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "spare_parts",
+    "name": {
+      "str": "中子弹空弹壳"
+    },
+    "description": "使用过的中子弹弹壳，可以复装。",
+    "weight": "8 g",
+    "volume": "8 ml",
+    "price": 80,
+    "material": [
+      "brass"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 1
+  },
+  {
+    "id": "hunt_short_casing",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "spare_parts",
+    "name": {
+      "str": "短子弹空弹壳"
+    },
+    "description": "使用过的短子弹弹壳，可以复装。",
+    "weight": "6 g",
+    "volume": "6 ml",
+    "price": 60,
+    "material": [
+      "brass"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 1
+  },
+  {
+    "id": "hunt_shotgun_casing",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "spare_parts",
+    "name": {
+      "str": "霰弹空弹壳"
+    },
+    "description": "使用过的霰弹弹壳，可以复装。",
+    "weight": "8 g",
+    "volume": "15 ml",
+    "price": 50,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 1
+  }
+]

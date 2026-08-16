@@ -1,0 +1,315 @@
+[
+  {
+    "id": "hunt_crossbow_bolt",
+    "type": "AMMO",
+    "name": {
+      "str": "标准弩箭"
+    },
+    "description": "标准弩箭，可回收再利用。",
+    "weight": "50 g",
+    "volume": "250 ml",
+    "price": 500,
+    "material": [
+      "wood",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "brown",
+    "ammo_type": "hunt_ammo_crossbow",
+    "count": 5,
+    "range": 12,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 35,
+      "armor_penetration": 5
+    },
+    "dispersion": 100,
+    "recoil": 200,
+    "effects": [
+      "RECOVER_10"
+    ]
+  },
+  {
+    "id": "hunt_crossbow_bolt_explosive",
+    "type": "AMMO",
+    "name": {
+      "str": "爆炸弩箭"
+    },
+    "description": "箭头装有爆炸物的弩箭，命中后爆炸。[reference:0][reference:1]",
+    "weight": "80 g",
+    "volume": "300 ml",
+    "price": 2000,
+    "material": [
+      "wood",
+      "steel",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_crossbow",
+    "count": 3,
+    "range": 10,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 20,
+      "armor_penetration": 2
+    },
+    "dispersion": 150,
+    "recoil": 300,
+    "effects": [
+      "EXPLOSIVE",
+      "RECOVER_5"
+    ]
+  },
+  {
+    "id": "hunt_crossbow_bolt_shot",
+    "type": "AMMO",
+    "name": {
+      "str": "霰弹弩箭"
+    },
+    "description": "箭尖装有霰弹，命中后扩散造成范围伤害。[reference:2]",
+    "weight": "70 g",
+    "volume": "280 ml",
+    "price": 1800,
+    "material": [
+      "wood",
+      "steel",
+      "lead"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "hunt_ammo_crossbow",
+    "count": 4,
+    "range": 8,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 25,
+      "armor_penetration": 1
+    },
+    "dispersion": 200,
+    "recoil": 250,
+    "effects": [
+      "SHOT",
+      "RECOVER_5"
+    ]
+  },
+  {
+    "id": "hunt_bomblance_harpoon",
+    "type": "AMMO",
+    "name": {
+      "str": "爆炸鱼叉"
+    },
+    "description": "带有爆炸弹头的鱼叉，命中后延迟2秒爆炸。[reference:6]",
+    "weight": "200 g",
+    "volume": "500 ml",
+    "price": 3000,
+    "material": [
+      "steel",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_bomblance",
+    "count": 1,
+    "range": 8,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 40,
+      "armor_penetration": 10
+    },
+    "dispersion": 200,
+    "recoil": 500,
+    "effects": [
+      "EXPLOSIVE",
+      "RECOVER_5"
+    ]
+  },
+  {
+    "id": "hunt_bomblance_steelball",
+    "type": "AMMO",
+    "name": {
+      "str": "钢珠弹"
+    },
+    "description": "鱼叉发射的钢珠霰弹，近战无声杀伤。[reference:7][reference:8]",
+    "weight": "150 g",
+    "volume": "400 ml",
+    "price": 2500,
+    "material": [
+      "steel",
+      "lead"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "hunt_ammo_bomblance",
+    "count": 3,
+    "range": 6,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 30,
+      "armor_penetration": 1
+    },
+    "dispersion": 300,
+    "recoil": 400,
+    "effects": [
+      "SHOT"
+    ]
+  },
+  {
+    "id": "hunt_bomblance_dragonbreath",
+    "type": "AMMO",
+    "name": {
+      "str": "龙息弹"
+    },
+    "description": "鱼叉发射的龙息霰弹，点燃目标。[reference:9][reference:10]",
+    "weight": "130 g",
+    "volume": "400 ml",
+    "price": 2800,
+    "material": [
+      "steel",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_bomblance",
+    "count": 3,
+    "range": 5,
+    "damage": {
+      "damage_type": "fire",
+      "amount": 15,
+      "armor_penetration": 0
+    },
+    "dispersion": 350,
+    "recoil": 350,
+    "effects": [
+      "INCENDIARY",
+      "SHOT"
+    ]
+  },
+  {
+    "id": "hunt_bomblance_waxed_frag",
+    "type": "AMMO",
+    "name": {
+      "str": "蜡封破片弹"
+    },
+    "description": "带有蜡封涂层的破片鱼叉，可在水下使用并造成爆炸伤害。",
+    "weight": "210 g",
+    "volume": "500 ml",
+    "price": 3200,
+    "material": [
+      "steel",
+      "powder",
+      "plastic"
+    ],
+    "symbol": "=",
+    "color": "blue",
+    "ammo_type": "hunt_ammo_bomblance",
+    "count": 1,
+    "range": 8,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 35,
+      "armor_penetration": 8
+    },
+    "dispersion": 220,
+    "recoil": 500,
+    "effects": [
+      "EXPLOSIVE",
+      "RECOVER_5",
+      "WATERPROOF"
+    ]
+  },
+  {
+    "id": "hunt_nitro_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "猎象枪标准弹"
+    },
+    "description": "大口径猎象枪弹药，威力巨大。[reference:13]",
+    "weight": "40 g",
+    "volume": "300 ml",
+    "price": 5000,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_nitro",
+    "count": 5,
+    "range": 15,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 50,
+      "armor_penetration": 20
+    },
+    "dispersion": 150,
+    "recoil": 3000,
+    "effects": [
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_nitro_shredder",
+    "type": "AMMO",
+    "name": {
+      "str": "猎象枪撕裂弹"
+    },
+    "description": "弹头碎裂造成严重流血。[reference:14][reference:15]",
+    "weight": "38 g",
+    "volume": "300 ml",
+    "price": 6000,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "ammo_type": "hunt_ammo_nitro",
+    "count": 5,
+    "range": 13,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 45,
+      "armor_penetration": 15
+    },
+    "dispersion": 180,
+    "recoil": 3200,
+    "effects": [
+      "RECYCLED",
+      "BLEED"
+    ]
+  },
+  {
+    "id": "hunt_nitro_explosive",
+    "type": "AMMO",
+    "name": {
+      "str": "猎象枪爆炸弹"
+    },
+    "description": "命中后爆炸的猎象枪弹药。[reference:16][reference:17]",
+    "weight": "45 g",
+    "volume": "320 ml",
+    "price": 7000,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "hunt_ammo_nitro",
+    "count": 4,
+    "range": 12,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 35,
+      "armor_penetration": 10
+    },
+    "dispersion": 200,
+    "recoil": 3500,
+    "effects": [
+      "EXPLOSIVE"
+    ]
+  }
+]

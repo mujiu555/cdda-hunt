@@ -1,0 +1,803 @@
+[
+  {
+    "id": "hunt_romero_77_short_barrel",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Romero 77 截短枪管"
+    },
+    "description": "将 Romero 77 的枪管截短，使其更便携，但有效射程和精度大幅下降。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_romero_77"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 100,
+    "range_modifier": -4,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "hunt_rival_78_short_barrel",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Rival 78 截短枪管"
+    },
+    "description": "将 Rival 78 的枪管截短，使其更便携，但有效射程和精度大幅下降。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 10000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_rival_78"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 120,
+    "range_modifier": -5,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "lemat_shotgun_barrel",
+    "copy-from": "underbarrel_base",
+    "type": "GUNMOD",
+    "name": {
+      "str": "勒马特霰弹枪管"
+    },
+    "description": "勒马特左轮手枪的副枪管，可发射霰弹。内置不可拆卸。",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "install_time": "0 s",
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "light_red",
+    "mod_targets": [
+      "hunt_lemat",
+      "hunt_lemat_carbine"
+    ],
+    "location": "underbarrel",
+    "gun_data": {
+      "ammo": "hunt_ammo_shotgun",
+      "skill": "shotgun",
+      "range": -2,
+      "dispersion": 600,
+      "durability": 10,
+      "reload": 150,
+      "clip_size": 1
+    },
+    "flags": [
+      "RELOAD_ONE",
+      "NO_UNLOAD",
+      "IRREMOVABLE"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_lemat_long_conversion",
+    "type": "GUNMOD",
+    "name": {
+      "str": "勒马特长子弹转换枪管"
+    },
+    "description": "一套专为勒马特设计的转换枪管和弹巢组件，可将手枪提升为发射长子弹，大幅增加威力，但后坐力也随之提高。",
+    "weight": "200 g",
+    "volume": "250 ml",
+    "price": 12000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_lemat",
+      "hunt_lemat_carbine"
+    ],
+    "location": "barrel",
+    "install_time": "30 m",
+    "min_skills": [
+      [
+        "gun",
+        4
+      ],
+      [
+        "mechanics",
+        4
+      ]
+    ],
+    "ammo_modifier": [
+      "hunt_ammo_long"
+    ],
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 7
+    },
+    "range_modifier": 3,
+    "dispersion_modifier": -20,
+    "flags": [
+      "CONSUMABLE"
+    ]
+  },
+  {
+    "id": "hunt_revolver_belt_feed",
+    "type": "GUNMOD",
+    "name": {
+      "str": "左轮手枪弹链转换套件"
+    },
+    "description": "一个复杂的机械装置，可将左轮手枪的弹巢替换为可容纳弹链的供弹系统，大幅提升弹容量，但会牺牲装填速度。",
+    "weight": "1200 g",
+    "volume": "1000 ml",
+    "integral_volume": "500 ml",
+    "price": 45000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "mechanism",
+    "mod_targets": [
+      "hunt_conversion",
+      "hunt_conversion_chain",
+      "hunt_nagant",
+      "hunt_nagant_officer",
+      "hunt_nagant_silencer",
+      "hunt_scottfield",
+      "hunt_pax",
+      "hunt_uppercut",
+      "hunt_haymaker",
+      "hunt_lemat",
+      "hunt_lemat_carbine"
+    ],
+    "acceptable_ammo": [
+      "hunt_ammo_short",
+      "hunt_ammo_medium",
+      "hunt_ammo_long"
+    ],
+    "install_time": "30 m",
+    "min_skills": [
+      [
+        "mechanics",
+        5
+      ]
+    ],
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": false,
+        "ammo_restriction": {
+          "hunt_ammo_short": 30,
+          "hunt_ammo_medium": 30,
+          "hunt_ammo_long": 30
+        }
+      }
+    ],
+    "flags": [
+      "INSTALL_DIFFICULT",
+      "NEEDS_UNFOLD"
+    ]
+  },
+  {
+    "id": "hunt_romero_77_alamo_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Romero 77 Alamo 装填改造"
+    },
+    "description": "为 Romero 77 加装弹仓和装弹器，大大提高了装填速度与可用性，但枪身略变复杂，精度略有下降。",
+    "weight": "200 g",
+    "volume": "250 ml",
+    "price": 10000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_romero_77"
+    ],
+    "location": "mechanism",
+    "install_time": "20 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 10,
+    "handling_modifier": 10
+  },
+  {
+    "id": "hunt_romero_77_talon_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Romero 77 Talon 利爪枪托"
+    },
+    "description": "为 Romero 77 的枪托安装刀刃，可进行强力的近战劈砍攻击。",
+    "weight": "400 g",
+    "volume": "400 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_romero_77"
+    ],
+    "location": "stock",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "cut": 20
+    }
+  },
+  {
+    "id": "hunt_romero_77_hatchet_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Romero 77 Hatchet 手斧枪托"
+    },
+    "description": "为 Romero 77 的枪托安装手斧，近战能力极强。",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": 9000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_romero_77"
+    ],
+    "location": "stock",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "cut": 30
+    }
+  },
+  {
+    "id": "hunt_rival_78_homestead_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Rival 78 Homestead 长枪管"
+    },
+    "description": "为 Rival 78 换装全尺寸长枪管，适用于一般射击和狩猎，精度与射程更佳。",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 10000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_rival_78"
+    ],
+    "location": "barrel",
+    "install_time": "20 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": -20,
+    "range_modifier": 1
+  },
+  {
+    "id": "hunt_rival_78_mace_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Rival 78 Mace 锤击枪托"
+    },
+    "description": "为 Rival 78 的枪托安装钝器，近战时可进行强力锤击。",
+    "weight": "400 g",
+    "volume": "400 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_rival_78"
+    ],
+    "location": "stock",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "bash": 25
+    }
+  },
+  {
+    "id": "hunt_rival_78_trauma_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Rival 78 Trauma 创伤枪托"
+    },
+    "description": "为 Rival 78 的枪托安装重型钝器，近战伤害极高。",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": 10000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_rival_78"
+    ],
+    "location": "stock",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "bash": 35
+    }
+  },
+  {
+    "id": "hunt_winfield_1873_short",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Winfield M1873 截短卡宾枪管"
+    },
+    "description": "将 Winfield M1873 的枪管截短，使其更短更便携，但精度和射程略有下降。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_winfield_1873"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 20,
+    "range_modifier": -2,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "hunt_specter_1882_compact_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Specter 1882 截短枪管"
+    },
+    "description": "将 Specter 1882 的枪管和弹仓截短，牺牲精度与射程，换取便携性。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_specter_1882"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 140,
+    "range_modifier": -6,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "hunt_specter_1882_bayonet_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Specter 1882 刺刀"
+    },
+    "description": "为 Specter 1882 加装刺刀，用于近战刺击。",
+    "weight": "300 g",
+    "volume": "300 ml",
+    "price": 6000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "mod_targets": [
+      "hunt_specter_1882"
+    ],
+    "location": "muzzle",
+    "install_time": "10 m",
+    "min_skills": [
+      [
+        "gun",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "stab": 25
+    }
+  },
+  {
+    "id": "hunt_slate_riposte_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Slate Riposte 刺刀"
+    },
+    "description": "为 Slate 加装刺刀，用于近战刺击。",
+    "weight": "300 g",
+    "volume": "300 ml",
+    "price": 6000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "mod_targets": [
+      "hunt_slate"
+    ],
+    "location": "muzzle",
+    "install_time": "10 m",
+    "min_skills": [
+      [
+        "gun",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "stab": 25
+    }
+  },
+  {
+    "id": "hunt_terminus_shorty_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Terminus 截短枪管"
+    },
+    "description": "将 Terminus 的枪管截短，更便携但射程和精度下降。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_terminus"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 80,
+    "range_modifier": -5,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "hunt_auto_5_shorty",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Auto-5 截短枪管"
+    },
+    "description": "将 Crown & King Auto-5 的枪管截短，更便携但射程和精度大幅下降。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 9000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_auto_5"
+    ],
+    "location": "barrel",
+    "install_time": "15 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 100,
+    "range_modifier": -6,
+    "flags": [
+      "IRREMOVABLE",
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "hunt_nagant_officer_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Nagant M1895 军官扳机"
+    },
+    "description": "打磨并轻量化双动扳机，使射击更加平稳快速。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "light_gray",
+    "mod_targets": [
+      "hunt_nagant"
+    ],
+    "location": "mechanism",
+    "install_time": "20 m",
+    "min_skills": [
+      [
+        "gun",
+        3
+      ],
+      [
+        "mechanics",
+        2
+      ]
+    ],
+    "dispersion_modifier": -10,
+    "range_modifier": -1,
+    "handling_modifier": 10
+  },
+  {
+    "id": "hunt_nagant_silencer_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Nagant M1895 内置消音器"
+    },
+    "description": "为 Nagant M1895 加装内置消音器，大幅降低枪声，适合潜行。",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "price": 12000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_nagant"
+    ],
+    "location": "barrel",
+    "install_time": "30 m",
+    "min_skills": [
+      [
+        "gun",
+        3
+      ],
+      [
+        "mechanics",
+        3
+      ]
+    ],
+    "dispersion_modifier": 10,
+    "range_modifier": -3,
+    "loudness_modifier": -20,
+    "flags": [
+      "IRREMOVABLE"
+    ]
+  },
+  {
+    "id": "hunt_bornheim_extmag",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Bornheim 加长弹匣"
+    },
+    "description": "为 Bornheim No.3 换装加长弹匣，将弹容提升至 8 发。",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "price": 8000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "light_gray",
+    "mod_targets": [
+      "hunt_bornheim"
+    ],
+    "location": "mechanism",
+    "install_time": "10 m",
+    "min_skills": [
+      [
+        "gun",
+        2
+      ]
+    ],
+    "dispersion_modifier": 10,
+    "range_modifier": -1,
+    "pocket_mods": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_vetterli_cyclone_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "Vetterli 71 旋风半自动改装"
+    },
+    "description": "将 Vetterli 71 卡宾枪改装为半自动，人称“旋风AK”。极高的射速，但精度和射程略有下降。",
+    "weight": "200 g",
+    "volume": "300 ml",
+    "price": 20000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "brown",
+    "mod_targets": [
+      "hunt_vetterli"
+    ],
+    "location": "mechanism",
+    "install_time": "40 m",
+    "min_skills": [
+      [
+        "gun",
+        4
+      ],
+      [
+        "mechanics",
+        4
+      ]
+    ],
+    "dispersion_modifier": 20,
+    "range_modifier": -2,
+    "handling_modifier": 10,
+    "flags": [
+      "INSTALL_DIFFICULT"
+    ]
+  },
+  {
+    "id": "hunt_mosin_avtomat_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "莫辛-纳甘 自动改装"
+    },
+    "description": "将莫辛-纳甘步枪改装为全自动，扣一下扳机即可打出三连发点射。精度大幅下降，近距离毁灭性极强。",
+    "weight": "400 g",
+    "volume": "500 ml",
+    "price": 50000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "mod_targets": [
+      "hunt_mosin_nagant"
+    ],
+    "location": "mechanism",
+    "install_time": "90 m",
+    "min_skills": [
+      [
+        "gun",
+        5
+      ],
+      [
+        "mechanics",
+        6
+      ]
+    ],
+    "mode_modifier": [
+      [
+        "AUTO",
+        "auto",
+        3
+      ]
+    ],
+    "dispersion_modifier": 150,
+    "range_modifier": -7,
+    "flags": [
+      "INSTALL_DIFFICULT",
+      "CONSUMABLE"
+    ]
+  },
+  {
+    "id": "hunt_lemat_carbine_kit",
+    "type": "GUNMOD",
+    "name": {
+      "str": "勒马特卡宾长枪管"
+    },
+    "description": "为勒马特左轮换装加长枪管，精度大幅提升，射程更远。",
+    "weight": "600 g",
+    "volume": "450 ml",
+    "price": 15000,
+    "material": [
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "brown",
+    "mod_targets": [
+      "hunt_lemat"
+    ],
+    "location": "barrel",
+    "install_time": "30 m",
+    "min_skills": [
+      [
+        "gun",
+        3
+      ]
+    ],
+    "dispersion_modifier": -40,
+    "range_modifier": 3
+  }
+]

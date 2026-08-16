@@ -1,0 +1,411 @@
+[
+  {
+    "id": "hunt_test_ammo",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "hunt_long_ball"
+      },
+      {
+        "item": "hunt_long_ball_bp"
+      },
+      {
+        "item": "hunt_long_fmj"
+      },
+      {
+        "item": "hunt_long_fmj_bp"
+      },
+      {
+        "item": "hunt_long_dumdum"
+      },
+      {
+        "item": "hunt_long_dumdum_bp"
+      },
+      {
+        "item": "hunt_long_hv"
+      },
+      {
+        "item": "hunt_long_hv_bp"
+      },
+      {
+        "item": "hunt_long_incendiary"
+      },
+      {
+        "item": "hunt_long_incendiary_bp"
+      },
+      {
+        "item": "hunt_long_explosive"
+      },
+      {
+        "item": "hunt_long_explosive_bp"
+      },
+      {
+        "item": "hunt_long_poison"
+      },
+      {
+        "item": "hunt_long_poison_bp"
+      },
+      {
+        "item": "hunt_long_spitzer"
+      },
+      {
+        "item": "hunt_long_spitzer_bp"
+      },
+      {
+        "item": "hunt_medium_ball"
+      },
+      {
+        "item": "hunt_medium_ball_bp"
+      },
+      {
+        "item": "hunt_medium_fmj"
+      },
+      {
+        "item": "hunt_medium_fmj_bp"
+      },
+      {
+        "item": "hunt_medium_dumdum"
+      },
+      {
+        "item": "hunt_medium_dumdum_bp"
+      },
+      {
+        "item": "hunt_medium_hv"
+      },
+      {
+        "item": "hunt_medium_hv_bp"
+      },
+      {
+        "item": "hunt_medium_incendiary"
+      },
+      {
+        "item": "hunt_medium_incendiary_bp"
+      },
+      {
+        "item": "hunt_medium_explosive"
+      },
+      {
+        "item": "hunt_medium_explosive_bp"
+      },
+      {
+        "item": "hunt_medium_poison"
+      },
+      {
+        "item": "hunt_medium_poison_bp"
+      },
+      {
+        "item": "hunt_medium_spitzer"
+      },
+      {
+        "item": "hunt_medium_spitzer_bp"
+      },
+      {
+        "item": "hunt_short_ball"
+      },
+      {
+        "item": "hunt_short_ball_bp"
+      },
+      {
+        "item": "hunt_short_fmj"
+      },
+      {
+        "item": "hunt_short_fmj_bp"
+      },
+      {
+        "item": "hunt_short_dumdum"
+      },
+      {
+        "item": "hunt_short_dumdum_bp"
+      },
+      {
+        "item": "hunt_short_hv"
+      },
+      {
+        "item": "hunt_short_hv_bp"
+      },
+      {
+        "item": "hunt_short_incendiary"
+      },
+      {
+        "item": "hunt_short_incendiary_bp"
+      },
+      {
+        "item": "hunt_short_explosive"
+      },
+      {
+        "item": "hunt_short_explosive_bp"
+      },
+      {
+        "item": "hunt_short_poison"
+      },
+      {
+        "item": "hunt_short_poison_bp"
+      },
+      {
+        "item": "hunt_short_spitzer"
+      },
+      {
+        "item": "hunt_short_spitzer_bp"
+      },
+      {
+        "item": "hunt_shotgun_buckshot"
+      },
+      {
+        "item": "hunt_shotgun_slug"
+      },
+      {
+        "item": "hunt_shotgun_flechette"
+      },
+      {
+        "item": "hunt_shotgun_pennyshot"
+      },
+      {
+        "item": "hunt_shotgun_dragonbreath"
+      },
+      {
+        "item": "hunt_shotgun_starshell"
+      },
+      {
+        "item": "hunt_bomblance_harpoon"
+      },
+      {
+        "item": "hunt_bomblance_steelball"
+      },
+      {
+        "item": "hunt_bomblance_dragonbreath"
+      },
+      {
+        "item": "hunt_bomblance_waxed_frag"
+      },
+      {
+        "item": "hunt_crossbow_bolt"
+      },
+      {
+        "item": "hunt_crossbow_bolt_explosive"
+      },
+      {
+        "item": "hunt_crossbow_bolt_shot"
+      },
+      {
+        "item": "hunt_nitro_ball"
+      },
+      {
+        "item": "hunt_nitro_shredder"
+      },
+      {
+        "item": "hunt_nitro_explosive"
+      }
+    ]
+  },
+  {
+    "id": "hunt_test_weapons",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "hunt_sparks_lrr"
+      },
+      {
+        "item": "hunt_martini_henry"
+      },
+      {
+        "item": "hunt_mako_1895"
+      },
+      {
+        "item": "hunt_lebel_1886"
+      },
+      {
+        "item": "hunt_mosin_nagant"
+      },
+      {
+        "item": "hunt_berthier"
+      },
+      {
+        "item": "hunt_krag"
+      },
+      {
+        "item": "hunt_maynard_sniper"
+      },
+      {
+        "item": "hunt_nitro_express"
+      },
+      {
+        "item": "hunt_uppercut"
+      },
+      {
+        "item": "hunt_haymaker"
+      },
+      {
+        "item": "hunt_1890_cavalry"
+      },
+      {
+        "item": "hunt_mosin_avtomat"
+      },
+      {
+        "item": "hunt_vetterli_cyclone"
+      },
+      {
+        "item": "hunt_vetterli"
+      },
+      {
+        "item": "hunt_springfield"
+      },
+      {
+        "item": "hunt_1865_carbine"
+      },
+      {
+        "item": "hunt_centennial"
+      },
+      {
+        "item": "hunt_infantry_73l"
+      },
+      {
+        "item": "hunt_ranger_73"
+      },
+      {
+        "item": "hunt_vandal_73c"
+      },
+      {
+        "item": "hunt_frontier_73c"
+      },
+      {
+        "item": "hunt_scottfield"
+      },
+      {
+        "item": "hunt_pax"
+      },
+      {
+        "item": "hunt_winfield_1873"
+      },
+      {
+        "item": "hunt_winfield_1873c"
+      },
+      {
+        "item": "hunt_conversion"
+      },
+      {
+        "item": "hunt_conversion_chain"
+      },
+      {
+        "item": "hunt_nagant"
+      },
+      {
+        "item": "hunt_nagant_officer"
+      },
+      {
+        "item": "hunt_nagant_silencer"
+      },
+      {
+        "item": "hunt_bornheim"
+      },
+      {
+        "item": "hunt_bornheim_extended"
+      },
+      {
+        "item": "hunt_lemat"
+      },
+      {
+        "item": "hunt_lemat_carbine"
+      },
+      {
+        "item": "hunt_romero_77"
+      },
+      {
+        "item": "hunt_romero_77_alamo"
+      },
+      {
+        "item": "hunt_romero_77_talon"
+      },
+      {
+        "item": "hunt_romero_77_hatchet"
+      },
+      {
+        "item": "hunt_rival_78"
+      },
+      {
+        "item": "hunt_homestead_78"
+      },
+      {
+        "item": "hunt_rival_78_mace"
+      },
+      {
+        "item": "hunt_rival_78_trauma"
+      },
+      {
+        "item": "hunt_specter_1882"
+      },
+      {
+        "item": "hunt_specter_1882_bayonet"
+      },
+      {
+        "item": "hunt_specter_1882_compact"
+      },
+      {
+        "item": "hunt_slate"
+      },
+      {
+        "item": "hunt_slate_riposte"
+      },
+      {
+        "item": "hunt_terminus"
+      },
+      {
+        "item": "hunt_terminus_shorty"
+      },
+      {
+        "item": "hunt_auto_5"
+      },
+      {
+        "item": "hunt_auto_4_shorty"
+      },
+      {
+        "item": "hunt_bomb_lance"
+      },
+      {
+        "item": "hunt_bomb_launcher"
+      },
+      {
+        "item": "hunt_crossbow"
+      },
+      {
+        "item": "hunt_hand_crossbow"
+      }
+    ]
+  },
+  {
+    "id": "hunt_test_mods",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "hunt_romero_77_short_barrel"
+      },
+      {
+        "item": "hunt_rival_78_short_barrel"
+      },
+      {
+        "item": "lemat_shotgun_barrel"
+      },
+      {
+        "item": "hunt_lemat_long_conversion"
+      }
+    ]
+  },
+  {
+    "id": "hunt_test_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "group": "hunt_test_ammo"
+      },
+      {
+        "group": "hunt_test_weapons"
+      },
+      {
+        "group": "hunt_test_mods"
+      }
+    ]
+  }
+]

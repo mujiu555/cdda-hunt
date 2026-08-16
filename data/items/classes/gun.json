@@ -1,0 +1,69 @@
+[
+  {
+    "abstract": "hunt_rifle_long_base",
+    "copy-from": "rifle_base",
+    "type": "GUN",
+    "name": {
+      "str": "长子弹步枪"
+    },
+    "description": "一把使用长弹药的大口径步枪，伤害高、穿透力强，但弹药补给困难。",
+    "weight": "4000 g",
+    "volume": "3000 ml",
+    "price": 80000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_long",
+    "skill": "rifle",
+    "dispersion": 180,
+    "sight_dispersion": 60,
+    "durability": 8,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ]
+  }
+]

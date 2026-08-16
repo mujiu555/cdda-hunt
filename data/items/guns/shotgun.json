@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "hunt_romero_77",
+    "type": "GUN",
+    "name": {
+      "str": "Romero 77"
+    },
+    "description": "单管霰弹枪，与 Caldwell Rival 78 数值相近，主要区别在于单发装填，是新手前期的主要选择。",
+    "weight": "3200 g",
+    "volume": "2800 ml",
+    "price": 45000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 280,
+    "reload": 350,
+    "range": 12,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 1
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_romero_77_alamo",
+    "type": "GUN",
+    "name": {
+      "str": "Romero 77 Alamo"
+    },
+    "description": "Romero 77 的改进型，增加了弹仓和装弹器，大大提高了可用性。射速和循环时间有所降低。",
+    "weight": "3400 g",
+    "volume": "3000 ml",
+    "price": 55000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 290,
+    "reload": 280,
+    "range": 12,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 1
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_romero_77_talon",
+    "type": "GUN",
+    "name": {
+      "str": "Romero 77 Talon"
+    },
+    "description": "Romero 77 的利爪型，枪托装有刀刃，可进行强力近战攻击。",
+    "weight": "3300 g",
+    "volume": "2900 ml",
+    "price": 52000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 280,
+    "reload": 350,
+    "range": 12,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "cut": 20
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 1
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_romero_77_hatchet",
+    "type": "GUN",
+    "name": {
+      "str": "Romero 77 Hatchet"
+    },
+    "description": "Romero 77 的手斧型，枪托装有手斧，近战能力极强。",
+    "weight": "3400 g",
+    "volume": "3000 ml",
+    "price": 54000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 280,
+    "reload": 350,
+    "range": 12,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "cut": 30
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 1
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_rival_78",
+    "type": "GUN",
+    "name": {
+      "str": "Caldwell Rival 78"
+    },
+    "description": "Caldwell 公司生产的第一款长枪，双管并列，双扳机，32英寸枪管。可以在装填前快速打出两发。",
+    "weight": "3400 g",
+    "volume": "2900 ml",
+    "price": 55000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 2,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 260,
+    "reload": 320,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ],
+      [
+        "DOUBLE",
+        "double",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 2
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_homestead_78",
+    "type": "GUN",
+    "name": {
+      "str": "Homestead 78"
+    },
+    "description": "Rival 78 的全尺寸长管型号，拥有 32 英寸枪管，适用于一般射击和狩猎。",
+    "weight": "3500 g",
+    "volume": "3000 ml",
+    "price": 58000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 2,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 240,
+    "reload": 330,
+    "range": 14,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ],
+      [
+        "DOUBLE",
+        "double",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 2
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_rival_78_mace",
+    "type": "GUN",
+    "name": {
+      "str": "Rival 78 Mace"
+    },
+    "description": "Rival 78 的锤击型，枪托装有钝器。",
+    "weight": "3500 g",
+    "volume": "3000 ml",
+    "price": 56000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 2,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 260,
+    "reload": 320,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ],
+      [
+        "DOUBLE",
+        "double",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "bash": 25
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 2
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_rival_78_trauma",
+    "type": "GUN",
+    "name": {
+      "str": "Rival 78 Trauma"
+    },
+    "description": "Rival 78 的创伤型，枪托装有钝器，近战伤害极高。",
+    "weight": "3600 g",
+    "volume": "3000 ml",
+    "price": 60000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 2,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 260,
+    "reload": 320,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ],
+      [
+        "DOUBLE",
+        "double",
+        2
+      ]
+    ],
+    "melee_damage": {
+      "bash": 35
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 2
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_specter_1882",
+    "type": "GUN",
+    "name": {
+      "str": "Specter 1882"
+    },
+    "description": "革命性的泵动霰弹枪，长枪管，可快速连续射击。装填内部弹仓需要时间。",
+    "weight": "3700 g",
+    "volume": "3100 ml",
+    "price": 60000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 220,
+    "reload": 400,
+    "range": 15,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_specter_1882_bayonet",
+    "type": "GUN",
+    "name": {
+      "str": "Specter 1882 Bayonet"
+    },
+    "description": "Specter 1882 的刺刀型，中长枪管，配有刺刀用于近战。",
+    "weight": "3800 g",
+    "volume": "3200 ml",
+    "price": 62000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 220,
+    "reload": 400,
+    "range": 15,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "stab": 25
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_specter_1882_compact",
+    "type": "GUN",
+    "name": {
+      "str": "Specter 1882 Compact"
+    },
+    "description": "Specter 1882 的截短版本，牺牲了精度和弹药容量，但增加了前握把，在近距离交战中后坐力更可控。",
+    "weight": "2600 g",
+    "volume": "2200 ml",
+    "price": 42000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 3,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 360,
+    "reload": 380,
+    "range": 9,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 3
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_slate",
+    "type": "GUN",
+    "name": {
+      "str": "Slate"
+    },
+    "description": "泵动霰弹枪，伤害和射速高，但弹丸散布较大。",
+    "weight": "3600 g",
+    "volume": "3000 ml",
+    "price": 58000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 320,
+    "reload": 380,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_slate_riposte",
+    "type": "GUN",
+    "name": {
+      "str": "Slate Riposte"
+    },
+    "description": "Slate 的刺刀型，配有刺刀用于近战。",
+    "weight": "3700 g",
+    "volume": "3100 ml",
+    "price": 60000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 320,
+    "reload": 380,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "stab": 25
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_terminus",
+    "type": "GUN",
+    "name": {
+      "str": "Terminus"
+    },
+    "description": "杠杆霰弹枪，受益于 Levering 特质。射速快，弹匣容量高。",
+    "weight": "3600 g",
+    "volume": "2900 ml",
+    "price": 50000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 280,
+    "reload": 350,
+    "range": 13,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 5
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_terminus_shorty",
+    "type": "GUN",
+    "name": {
+      "str": "Terminus Shorty"
+    },
+    "description": "Terminus 的截短版本，更便携但射程和精度下降。",
+    "weight": "2600 g",
+    "volume": "2100 ml",
+    "price": 38000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 360,
+    "reload": 320,
+    "range": 8,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_auto_5",
+    "type": "GUN",
+    "name": {
+      "str": "Crown & King Auto-5"
+    },
+    "description": "半自动长管霰弹枪，5 发弹匣。可快速清空弹匣。",
+    "weight": "3600 g",
+    "volume": "3000 ml",
+    "price": 65000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 240,
+    "reload": 280,
+    "range": 14,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 5
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_auto_4_shorty",
+    "type": "GUN",
+    "name": {
+      "str": "Auto-4 Shorty"
+    },
+    "description": "Auto-5 的截短版本。",
+    "weight": "2600 g",
+    "volume": "2100 ml",
+    "price": 42000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_shotgun",
+    "skill": "shotgun",
+    "clip_size": 4,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0
+    },
+    "dispersion": 340,
+    "reload": 250,
+    "range": 8,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_shotgun": 4
+        },
+        "rigid": true
+      }
+    ]
+  }
+]

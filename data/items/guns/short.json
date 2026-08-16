@@ -1,0 +1,961 @@
+[
+  {
+    "id": "hunt_winfield_1873",
+    "type": "GUN",
+    "name": {
+      "str": "Winfield M1873"
+    },
+    "description": "经典的杠杆步枪，短口径，射速快，适合中近距离战斗。",
+    "weight": "3400 g",
+    "volume": "2600 ml",
+    "price": 60000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_short",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 22,
+      "armor_penetration": 3
+    },
+    "dispersion": 250,
+    "reload": 140,
+    "range": 16,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_winfield_1873c",
+    "type": "GUN",
+    "name": {
+      "str": "Winfield M1873 C"
+    },
+    "description": "Winfield 73的卡宾版本，更短更便携。",
+    "weight": "3200 g",
+    "volume": "2400 ml",
+    "price": 58000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_short",
+    "skill": "rifle",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 20,
+      "armor_penetration": 2
+    },
+    "dispersion": 270,
+    "reload": 130,
+    "range": 14,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_conversion",
+    "type": "GUN",
+    "name": {
+      "str": "Caldwell Conversion Pistol"
+    },
+    "description": "单动左轮手枪，使用短弹药，可靠而精准。",
+    "weight": "1000 g",
+    "volume": "500 ml",
+    "price": 45000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 18,
+      "armor_penetration": 2
+    },
+    "dispersion": 340,
+    "reload": 200,
+    "range": 12,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_conversion_chain",
+    "type": "GUN",
+    "name": {
+      "str": "Conversion Chain Pistol"
+    },
+    "description": "链式弹仓的Caldwell Conversion，弹容量极大。",
+    "weight": "1200 g",
+    "volume": "600 ml",
+    "price": 50000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 12,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 17,
+      "armor_penetration": 2
+    },
+    "dispersion": 360,
+    "reload": 300,
+    "range": 11,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_nagant",
+    "type": "GUN",
+    "name": {
+      "str": "Nagant M1895"
+    },
+    "description": "双动左轮，射击平稳，弹巢7发。",
+    "weight": "950 g",
+    "volume": "480 ml",
+    "price": 42000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 7,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 16,
+      "armor_penetration": 2
+    },
+    "dispersion": 320,
+    "reload": 180,
+    "range": 13,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_nagant_officer",
+    "type": "GUN",
+    "name": {
+      "str": "Nagant M1895 Officer"
+    },
+    "description": "纳甘军官型，双动扳机更轻，射速更快。",
+    "weight": "940 g",
+    "volume": "480 ml",
+    "price": 48000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 7,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 15,
+      "armor_penetration": 2
+    },
+    "dispersion": 310,
+    "reload": 150,
+    "range": 12,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_nagant_silencer",
+    "type": "GUN",
+    "name": {
+      "str": "Nagant M1895 Silencer"
+    },
+    "description": "纳甘消音型，内置消音器，适合潜行。",
+    "weight": "1000 g",
+    "volume": "500 ml",
+    "price": 55000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 7,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 14,
+      "armor_penetration": 1
+    },
+    "dispersion": 330,
+    "reload": 180,
+    "range": 10,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_bornheim",
+    "type": "GUN",
+    "name": {
+      "str": "Bornheim No. 3"
+    },
+    "description": "半自动手枪，速射利器，弹容5发。",
+    "weight": "850 g",
+    "volume": "400 ml",
+    "price": 60000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 5,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 18,
+      "armor_penetration": 2
+    },
+    "dispersion": 300,
+    "reload": 120,
+    "range": 14,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_bornheim_extended",
+    "type": "GUN",
+    "name": {
+      "str": "Bornheim Extended"
+    },
+    "description": "Bornheim加长弹匣版本，弹容8发。",
+    "weight": "900 g",
+    "volume": "450 ml",
+    "price": 65000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 8,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 17,
+      "armor_penetration": 2
+    },
+    "dispersion": 310,
+    "reload": 130,
+    "range": 13,
+    "durability": 6,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_lemat",
+    "type": "GUN",
+    "name": {
+      "str": "LeMat Mark III"
+    },
+    "description": "勒马特左轮，弹容9发，副枪管可发射霰弹。",
+    "weight": "1400 g",
+    "volume": "750 ml",
+    "price": 70000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_short",
+    "skill": "pistol",
+    "clip_size": 9,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 20,
+      "armor_penetration": 3
+    },
+    "dispersion": 300,
+    "reload": 250,
+    "range": 15,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NO_UNLOAD"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "built_in_mods": [
+      "lemat_shotgun_barrel"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_lemat_carbine",
+    "type": "GUN",
+    "name": {
+      "str": "LeMat Carbine"
+    },
+    "description": "勒马特卡宾枪，长枪管和枪托，精度提升。",
+    "weight": "2000 g",
+    "volume": "1200 ml",
+    "price": 75000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_short",
+    "skill": "rifle",
+    "clip_size": 9,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 22,
+      "armor_penetration": 3
+    },
+    "dispersion": 260,
+    "reload": 250,
+    "range": 18,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NO_UNLOAD"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "built_in_mods": [
+      "lemat_shotgun_barrel"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_short": 9
+        }
+      }
+    ]
+  }
+]

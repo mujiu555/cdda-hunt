@@ -1,0 +1,44 @@
+[
+  {
+    "id": "hunt_ammo_long",
+    "type": "ammunition_type",
+    "name": "长子弹",
+    "default": "hunt_long_ball"
+  },
+  {
+    "id": "hunt_ammo_medium",
+    "type": "ammunition_type",
+    "name": "中子弹",
+    "default": "hunt_medium_ball"
+  },
+  {
+    "id": "hunt_ammo_short",
+    "type": "ammunition_type",
+    "name": "短子弹",
+    "default": "hunt_short_ball"
+  },
+  {
+    "id": "hunt_ammo_crossbow",
+    "type": "ammunition_type",
+    "name": "弩箭",
+    "default": "hunt_crossbow_bolt"
+  },
+  {
+    "id": "hunt_ammo_bomblance",
+    "type": "ammunition_type",
+    "name": "鱼叉弹药",
+    "default": "hunt_bomblance_harpoon"
+  },
+  {
+    "id": "hunt_ammo_nitro",
+    "type": "ammunition_type",
+    "name": "猎象枪弹药",
+    "default": "hunt_nitro_ball"
+  },
+  {
+    "id": "hunt_ammo_shotgun",
+    "type": "ammunition_type",
+    "name": "霰弹",
+    "default": "hunt_shotgun_buckshot"
+  }
+]

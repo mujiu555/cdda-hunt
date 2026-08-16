@@ -1,0 +1,98 @@
+[
+  {
+    "id": "chem_smokeless_powder",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "chems",
+    "name": {
+      "str": "无烟火药"
+    },
+    "description": "现代步枪用的无烟火药，燃烧清洁、性能稳定。",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 500,
+    "material": [
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "white",
+    "count": 100
+  },
+  {
+    "id": "hunt_primers",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "chems",
+    "name": {
+      "str": "大型步枪底火"
+    },
+    "description": "用于复装步枪弹药的底火。",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 200,
+    "material": [
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 100
+  },
+  {
+    "id": "hunt_medium_primers",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "chems",
+    "name": {
+      "str": "中型步枪底火"
+    },
+    "description": "用于复装中口径步枪弹药的底火。",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 150,
+    "material": [
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 100
+  },
+  {
+    "id": "hunt_short_primers",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "chems",
+    "name": {
+      "str": "小型手枪底火"
+    },
+    "description": "用于复装短口径手枪弹药的底火。",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 100,
+    "material": [
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 100
+  },
+  {
+    "id": "hunt_shotgun_primers",
+    "type": "AMMO",
+    "ammo_type": "components",
+    "category": "chems",
+    "name": {
+      "str": "霰弹底火"
+    },
+    "description": "用于复装霰弹的底火。",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 80,
+    "material": [
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 100
+  }
+]

@@ -1,0 +1,588 @@
+[
+  {
+    "result": "hunt_crossbow",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "90 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          4
+        ]
+      ],
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "string_6",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_hand_crossbow",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "60 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "steel_chunk",
+          2
+        ]
+      ],
+      [
+        [
+          "string_6",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_crossbow_bolt",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "15 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "2x4",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_crossbow_bolt_explosive",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_crossbow_bolt",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_crossbow_bolt_shot",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "25 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_crossbow_bolt",
+          1
+        ]
+      ],
+      [
+        [
+          "shotgun_shot",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_bomb_lance",
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "120 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          10
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ],
+      [
+        [
+          "2x4",
+          3
+        ]
+      ],
+      [
+        [
+          "spring",
+          3
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          16
+        ]
+      ],
+      [
+        [
+          "steel_lump",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_bomblance_harpoon",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "steel_chunk",
+          2
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_bomblance_steelball",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "steel_chunk",
+          2
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_bomblance_dragonbreath",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "25 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "steel_chunk",
+          1
+        ]
+      ],
+      [
+        [
+          "white_phosphorous",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_bomblance_waxed_frag",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_bomblance_harpoon",
+          1
+        ]
+      ],
+      [
+        [
+          "plastic",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_nitro_express",
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 8,
+    "time": "150 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          12
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ],
+      [
+        [
+          "2x4",
+          4
+        ]
+      ],
+      [
+        [
+          "spring",
+          3
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          20
+        ]
+      ],
+      [
+        [
+          "steel_lump",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_nitro_ball",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          20
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_nitro_shredder",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          20
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_nitro_explosive",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_long_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          20
+        ]
+      ],
+      [
+        [
+          "hunt_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  }
+]

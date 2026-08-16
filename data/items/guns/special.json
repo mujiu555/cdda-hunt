@@ -1,0 +1,328 @@
+[
+  {
+    "id": "hunt_crossbow",
+    "type": "GUN",
+    "name": {
+      "str": "十字弩"
+    },
+    "description": "手工制作的强力十字弩，适合隐秘行动，但装填缓慢。",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "price": 50000,
+    "material": [
+      "wood",
+      "steel"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_crossbow",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 0
+    },
+    "dispersion": 80,
+    "reload": 400,
+    "range": 15,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_crossbow": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_hand_crossbow",
+    "type": "GUN",
+    "name": {
+      "str": "手弩"
+    },
+    "description": "便携式手弩，发射紧凑型弩箭，适合隐蔽击杀。",
+    "weight": "1500 g",
+    "volume": "1200 ml",
+    "price": 35000,
+    "material": [
+      "wood",
+      "steel"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_crossbow",
+    "skill": "pistol",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 0
+    },
+    "dispersion": 120,
+    "reload": 300,
+    "range": 10,
+    "durability": 7,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "sights",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_crossbow": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_bomb_lance",
+    "type": "GUN",
+    "name": {
+      "str": "炸弹鱼叉枪"
+    },
+    "description": "捕鲸鱼叉改造的陆地武器，附带巨大的刀刃，可进行强力近战攻击。发射爆炸鱼叉，威力惊人。",
+    "weight": "4000 g",
+    "volume": "3500 ml",
+    "price": 80000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_bomblance",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 0
+    },
+    "dispersion": 250,
+    "reload": 600,
+    "range": 8,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "cut": 45
+    },
+    "melee_armor_penetration": 10,
+    "melee_skill": "cutting",
+    "to_hit": -2,
+    "reach": 2,
+    "reach_attack": true,
+    "valid_mod_locations": [],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS",
+      "REACH_ATTACK"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "hunt_ammo_bomblance": 1
+        },
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "hunt_bomb_launcher",
+    "type": "GUN",
+    "name": {
+      "str": "炸弹发射器"
+    },
+    "description": "炸弹鱼叉枪的基础型号。[reference:12]",
+    "weight": "3800 g",
+    "volume": "3300 ml",
+    "price": 70000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "hunt_ammo_bomblance",
+    "skill": "rifle",
+    "clip_size": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 0
+    },
+    "dispersion": 260,
+    "reload": 550,
+    "range": 8,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ]
+    ],
+    "valid_mod_locations": [],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_bomblance": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunt_nitro_express",
+    "type": "GUN",
+    "name": {
+      "str": "猎象枪 Nitro Express"
+    },
+    "description": "双管猎象步枪，使用特制硝基弹药，威力惊人。[reference:18][reference:19]",
+    "weight": "4500 g",
+    "volume": "3500 ml",
+    "price": 150000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "hunt_ammo_nitro",
+    "skill": "rifle",
+    "clip_size": 2,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0,
+      "armor_penetration": 20
+    },
+    "dispersion": 180,
+    "reload": 350,
+    "range": 20,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1
+      ],
+      [
+        "DOUBLE",
+        "double",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "flags": [
+      "RELOAD_ONE",
+      "NEVER_JAMS"
+    ],
+    "faults": [
+      "fault_gun_dirt"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "hunt_ammo_nitro": 2
+        }
+      }
+    ]
+  }
+]

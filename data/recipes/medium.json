@@ -1,0 +1,1400 @@
+[
+  {
+    "result": "hunt_vetterli",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "80 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          5
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_springfield",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "80 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          5
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          1
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_1865_carbine",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 6,
+    "time": "90 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          6
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_centennial",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 6,
+    "time": "90 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          6
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          3
+        ]
+      ],
+      [
+        [
+          "spring",
+          3
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_infantry_73l",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "80 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          5
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_ranger_73",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "70 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          5
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_vandal_73c",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "70 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          1
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_frontier_73c",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "75 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          5
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          2
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_scottfield",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 4,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          3
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          1
+        ]
+      ],
+      [
+        [
+          "spring",
+          1
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_pax",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 5,
+    "time": "55 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          4
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          1
+        ]
+      ],
+      [
+        [
+          "spring",
+          2
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_ball_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_fmj_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_dumdum_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_hv_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          15
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_incendiary_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "white_phosphorous",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_explosive_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "55 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_poison_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "conc_venom",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_spitzer_bp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "50 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_black_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_ball",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_fmj",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_dumdum",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_hv",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          15
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_incendiary",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "white_phosphorous",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_explosive",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_anfo",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_poison",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "35 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "conc_venom",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_medium_spitzer",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "40 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "hunt_medium_casing",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_smokeless_powder",
+          10
+        ]
+      ],
+      [
+        [
+          "hunt_medium_primers",
+          1
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "hunt_vetterli_cyclone",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "gun",
+    "difficulty": 6,
+    "time": "90 m",
+    "reversible": true,
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "screwdriver",
+          -1
+        ],
+        [
+          "toolset",
+          -1
+        ]
+      ],
+      [
+        [
+          "file",
+          -1
+        ]
+      ],
+      [
+        [
+          "hacksaw",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          6
+        ]
+      ],
+      [
+        [
+          "pipe",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          3
+        ]
+      ],
+      [
+        [
+          "spring",
+          3
+        ]
+      ],
+      [
+        [
+          "trigger",
+          1
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          14
+        ]
+      ]
+    ]
+  }
+]

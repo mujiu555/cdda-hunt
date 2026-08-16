@@ -1,0 +1,338 @@
+[
+  {
+    "id": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹（无烟火药）"
+    },
+    "description": "标准长子弹，采用无烟火药，性能出色。",
+    "weight": "28 g",
+    "volume": "250 ml",
+    "price": 2500,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "hunt_ammo_long",
+    "count": 10,
+    "range": 12,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 35,
+      "armor_penetration": 5
+    },
+    "dispersion": 100,
+    "recoil": 1500,
+    "effects": [
+      "RECYCLED"
+    ]
+  },
+  {
+    "id": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹（黑火药复装）"
+    },
+    "description": "用黑火药复装的长子弹，威力稍低，烟雾大。",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "price": 1200,
+    "material": [
+      "steel",
+      "lead",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "ammo_type": "hunt_ammo_long",
+    "count": 10,
+    "range": 10,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 25,
+      "armor_penetration": 2
+    },
+    "dispersion": 200,
+    "recoil": 1200,
+    "effects": [
+      "RECYCLED",
+      "BLACKPOWDER_FIRE",
+      "MUZZLE_SMOKE"
+    ]
+  },
+  {
+    "id": "hunt_long_fmj",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 FMJ（无烟火药）"
+    },
+    "description": "全金属被甲长子弹，穿透力强。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5,
+        "armor_penetration": 10
+      },
+      "dispersion": 10
+    }
+  },
+  {
+    "id": "hunt_long_fmj_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 FMJ（黑火药复装）"
+    },
+    "description": "黑火药复装的全金属被甲弹，穿透力尚可。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5,
+        "armor_penetration": 8
+      },
+      "dispersion": 20
+    }
+  },
+  {
+    "id": "hunt_long_dumdum",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 达姆弹（无烟火药）"
+    },
+    "description": "开花弹，造成严重流血。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 5
+      },
+      "armor_penetration": -5
+    },
+    "extend": {
+      "effects": [
+        "BLEED"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_dumdum_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 达姆弹（黑火药复装）"
+    },
+    "description": "黑火药达姆弹，流血效果稍弱。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 3
+      },
+      "armor_penetration": -5
+    },
+    "extend": {
+      "effects": [
+        "BLEED"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_hv",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 高速弹（无烟火药）"
+    },
+    "description": "装药量更大，初速高，后坐力大。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 5
+      },
+      "recoil": 300,
+      "range": 5,
+      "dispersion": -20
+    }
+  },
+  {
+    "id": "hunt_long_hv_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 高速弹（黑火药复装）"
+    },
+    "description": "黑火药高速弹，提升有限。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": 2
+      },
+      "recoil": 200,
+      "range": 2,
+      "dispersion": -10
+    }
+  },
+  {
+    "id": "hunt_long_incendiary",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 燃烧弹（无烟火药）"
+    },
+    "description": "弹头含燃烧剂，击中可引燃目标。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5
+      },
+      "armor_penetration": -5
+    },
+    "extend": {
+      "effects": [
+        "INCENDIARY"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_incendiary_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 燃烧弹（黑火药复装）"
+    },
+    "description": "黑火药燃烧弹，效果稍差。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -8
+      },
+      "armor_penetration": -5
+    },
+    "extend": {
+      "effects": [
+        "INCENDIARY"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_explosive",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 爆炸弹（无烟火药）"
+    },
+    "description": "弹头含炸药，命中后爆炸。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -15
+      },
+      "armor_penetration": -10
+    },
+    "extend": {
+      "effects": [
+        "EXPLOSIVE"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_explosive_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 爆炸弹（黑火药复装）"
+    },
+    "description": "黑火药爆炸弹，威力较小。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -18
+      },
+      "armor_penetration": -10
+    },
+    "extend": {
+      "effects": [
+        "EXPLOSIVE"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_poison",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 毒弹（无烟火药）"
+    },
+    "description": "弹头涂毒，可造成毒素伤害。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -5
+      }
+    },
+    "extend": {
+      "effects": [
+        "POISON"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_poison_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 毒弹（黑火药复装）"
+    },
+    "description": "黑火药毒弹，毒素效果稍弱。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -8
+      }
+    },
+    "extend": {
+      "effects": [
+        "POISON"
+      ]
+    }
+  },
+  {
+    "id": "hunt_long_spitzer",
+    "copy-from": "hunt_long_ball",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 斯皮策弹（无烟火药）"
+    },
+    "description": "流线型弹头，高穿透高初速，伤害较低。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -8
+      },
+      "armor_penetration": 15,
+      "range": 5,
+      "dispersion": -30
+    }
+  },
+  {
+    "id": "hunt_long_spitzer_bp",
+    "copy-from": "hunt_long_ball_bp",
+    "type": "AMMO",
+    "name": {
+      "str": "长子弹 斯皮策弹（黑火药复装）"
+    },
+    "description": "黑火药斯皮策弹，性能下降。",
+    "relative": {
+      "damage": {
+        "damage_type": "bullet",
+        "amount": -12
+      },
+      "armor_penetration": 10,
+      "range": 2,
+      "dispersion": -15
+    }
+  }
+]
